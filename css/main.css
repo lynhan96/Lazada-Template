@@ -77,11 +77,23 @@ a {
 .btn.btn-primary {
   color: #fff;
   background: #1429a0;
-  border: 2px #1429a0 solid;
+  border: 1px #1429a0 solid;
+}
+
+.btn.btn-black-border {
+  border: 1px #2d2d2d solid;
+  color: #2d2d2d;
+  background: transparent;  
+}
+
+.btn.btn-white-border {
+  border: 1px #fff solid;
+  color: #fff;
+  background: transparent;  
 }
 
 .btn.btn-primary:hover {
-  border: 2px #2d2d2d solid;
+  border: 1px #2d2d2d solid;
   color: #2d2d2d;
   background: transparent;
 }

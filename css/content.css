@@ -6,7 +6,7 @@
 }
 
 .category .title {
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 20px;
   width: 100%;
   text-align: center;
@@ -24,7 +24,7 @@
   background: #fff;
   padding: 30px;
   border-radius: 2px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .category .products .item:hover {
@@ -32,7 +32,7 @@
 }
 
 .category .products .item img {
-  width: 240px;
+  width: 235px;
   object-fit: contain;
 }
 
@@ -55,4 +55,58 @@
   font-size: 17px;
   color: #bebebe;
   margin-left: 8px;
+}
+
+.banner-with-image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 250px;
+  margin: 50px 0;
+  background-color: #fff;
+  padding: 0 80px;
+}
+
+.banner-with-image img {
+  width: 60%;
+}
+
+.banner-with-image .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-with-image .content .title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.banner-with-image .content .hint {
+  font-size: 17px;
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.banner-with-image .content .btn-black-border {
+  width: 250px;
+}
+
+.banner-no-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(96deg, #1475ac, #5fbccd 45%, #f6bdb0);
+  padding: 25px 0;
+  margin: 50px 0;
+}
+
+.banner-no-image .title {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
 }
