@@ -1,4 +1,5 @@
 header {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +27,7 @@ header {
   color: #9f9f9f;
 }
 
-
+.top-header ul li:hover,
 .top-header ul li.active {
   color: #16316C;
 }
@@ -121,4 +122,27 @@ header {
 .header .menu ul .menu-item img {
   width: 23px;
   margin-right: 5px;
+}
+
+.header-submenu {
+  background: #f7f7f7;
+}
+
+.header-submenu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 185px;
+}
+
+.header-submenu ul .submenu-item {
+  padding: 10px 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.header-submenu ul .submenu-item:hover,
+.header-submenu ul .submenu-item.active {
+  background: #7E7E7E;
+  color: white
 }

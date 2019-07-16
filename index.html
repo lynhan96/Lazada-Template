@@ -4,6 +4,7 @@
   <title>Lazada</title>
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css">
+  <script src="js/jquery.min.js"></script>
 </head>
 <body>
   <!-- Header section -->
@@ -74,6 +75,168 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <div class="header-submenu">
+        <ul>
+          <li class="submenu-item active">
+            <a href="">MOBILES</a>
+          </li>
+          <li class="submenu-item">
+            <a href="">TABLETS</a>
+          </li>
+          <li class="submenu-item">
+            <a href="">WEARABLES</a>
+          </li>
+          <li class="submenu-item">
+            <a href="">TV</a>
+          </li>
+          <li class="submenu-item">
+            <a href="">SOUNDBAR</a>
+          </li>
+          <li class="submenu-item">
+            <a href="">APPLIANCES</a>
+          </li>
+          <li class="submenu-item">
+            <a href="">ACCESSORIES</a>
+          </li>
+        </ul>
+      </div>      
+    </div>
+    <div class="container">
+      <img src="./images/officical-banner.png">
+    </div>
   </header>
+  <!-- Content setcion -->
+  <div class="container">
+    <div class="banner-section">
+      <div class="slideshow-container">
+        <!-- Carousel item 1-->
+        <div class="carousel-item fade">
+          <div class="left">
+            <div class="title">Galaxy A50</div>
+            <div class="text">Now available from</div>
+            <div class="price">
+              <div class="currency">$</div>
+              <div class="text">398</div>
+            </div>
+            <div class="hint-price">(U.P $598)</div>
+            <button class="btn btn-primary">BUY NOW</button>
+          </div>
+          <div class="right">
+            <div class="promo-label">UP TO 35% OFF</div>
+            <img src="./images/banner-1.png" style="width:100%">  
+          </div>
+        </div>
+        <!-- Carousel item 2-->
+        <div class="carousel-item fade">
+          <div class="left">
+            <div class="title">Galaxy A100</div>
+            <div class="text">Now available from</div>
+            <div class="price">
+              <div class="currency">$</div>
+              <div class="text">1000</div>
+            </div>
+            <div class="hint-price">(U.P $2000)</div>
+            <button class="btn btn-primary">BUY NOW</button>
+          </div>
+          <div class="right">
+            <div class="promo-label">UP TO 50% OFF</div>
+            <img src="./images/banner-1.png" style="width:100%">  
+          </div>
+        </div>
+
+        <a class="move prev" onclick="plusSlides(-1)">
+          <i class="fas fa-chevron-left"></i>          
+        </a>
+        <a class="move next" onclick="plusSlides(1)">
+          <i class="fas fa-chevron-right"></i>
+        </a>
+        <div class="dot-wrapper">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+      </div>
+    </div>
+    <div class="category" >
+      <div class="title">Galaxy S10e | S10 | S10+</div>
+      <div class="products">
+        <a href="" class="item">
+          <img src="./images/product-1.png">
+          <div class="name">Galaxy S10e 128GB Prism White</div>
+          <div class="price">
+            <div class="current-price">$1,078</div>
+            <div class="original-price">$1,598</div>
+          </div>
+          <button class="btn btn-primary">BUY NOW</button>
+        </a>
+        <a href="" class="item">
+          <img src="./images/product-2.png">
+          <div class="name">Galaxy S10e 128GB Prism White</div>
+          <div class="price">
+            <div class="current-price">$1,078</div>
+            <div class="original-price">$1,598</div>
+          </div>
+          <button class="btn btn-primary">BUY NOW</button>
+        </a>
+        <a href="" class="item">
+          <img src="./images/product-3.png">
+          <div class="name">Galaxy S10e 128GB Prism White</div>
+          <div class="price">
+            <div class="current-price">$1,078</div>
+            <div class="original-price">$1,598</div>
+          </div>
+          <button class="btn btn-primary">BUY NOW</button>
+        </a>
+        <a href="" class="item">
+          <img src="./images/product-1.png">
+          <div class="name">Galaxy S10e 128GB Prism White</div>
+          <div class="price">
+            <div class="current-price">$1,078</div>
+            <div class="original-price">$1,598</div>
+          </div>
+          <button class="btn btn-primary">BUY NOW</button>
+        </a>
+        <a href="" class="item">
+          <img src="./images/product-2.png">
+          <div class="name">Galaxy S10e 128GB Prism White</div>
+          <div class="price">
+            <div class="current-price">$1,078</div>
+            <div class="original-price">$1,598</div>
+          </div>
+          <button class="btn btn-primary">BUY NOW</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var slideIndex = 1
+
+    showSlides(slideIndex)
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n)
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("carousel-item");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "flex";  
+      dots[slideIndex-1].className += " active";
+    }
+  </script>
 </body>
 </html>
