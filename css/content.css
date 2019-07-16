@@ -20,6 +20,7 @@
 
 .category .products .item {
   display: flex;
+  width: 235px;
   flex-direction: column;
   background: #fff;
   padding: 30px;
@@ -37,6 +38,10 @@
 }
 
 .category .products .item .name {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   font-size: 17px;
   margin: 20px 0;
 }
@@ -78,14 +83,13 @@
 }
 
 .banner-with-image .content .title {
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: 50px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 30px;
 }
 
 .banner-with-image .content .hint {
-  font-size: 17px;
-  margin-left: 25px;
+  margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 20px;
 }
@@ -107,6 +111,59 @@
 .banner-no-image .title {
   margin-bottom: 15px;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
+}
+
+.offical {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5e5e5;
+}
+
+.offical .container {
+  padding: 50px 0;
+}
+
+.offical .head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.offical .head .title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.offical .head .text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.offical .items {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.offical .items .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offical .items .item img {
+  width: 110px;
+  height: 110px;
+  margin-bottom: 15px;
+}
+
+.offical .items .item .text {
+  font-size: 20px;
+  font-weight: bold;
 }

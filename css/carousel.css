@@ -61,6 +61,7 @@
 .slideshow-container .carousel-item .left .price .text {
   margin: 0;
   font-size: 60px;
+  font-weight: 600;
 }
 
 .slideshow-container .carousel-item .left .hint-price {

@@ -1,6 +1,8 @@
 @import "header.css";
 @import "carousel.css";
 @import "content.css";
+@import "footer.css";
+@import "social_icon.css";
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #9f9f9f;
@@ -16,6 +18,23 @@
   color: #9f9f9f;
 }
 
+@font-face {
+  font-family: 'SamsungSharp';
+  src: url("../assets/fonts/SamsungSharp/SamsungSharpSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'SamsungSharp';
+  font-weight: bold;
+  src: url("../assets/fonts/SamsungSharp/SamsungSharpSans-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'SamsungSharp';
+  font-weight: 600;
+  src: url("../assets/fonts/SamsungSharp/SamsungSharpSans-Medium.otf") format("opentype");
+}
+
 body {
   margin: 0;
   font-size: 15px;
@@ -23,6 +42,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-family: SamsungSharp, sans-serif;
 }
 
 a {
@@ -40,6 +60,10 @@ a {
 
 .bg-gray {
   background: #f1f1f1;
+}
+
+.orange {
+  color: #F4733A;
 }
 
 .input-group {

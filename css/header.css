@@ -100,6 +100,7 @@ header {
   display: flex;
   align-items: center;
   margin-left: 25px;
+  font-weight: bold;
 }
 
 .header .menu .category-item i {
@@ -117,6 +118,7 @@ header {
   display: flex;
   align-items: center;
   margin-right: 20px;
+  font-weight: bold;
 }
 
 .header .menu ul .menu-item img {
