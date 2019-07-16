@@ -21,11 +21,18 @@
 }
 
 .slideshow-container .carousel-item .right {
-  width: calc(100% - 230px);
+  width: calc(100% - 250px);
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: 17px;
+  margin-left: 20px;
+}
+
+.slideshow-container .carousel-item .right img {
+  object-fit: contain;
+  height: 100%;
 }
 
 .slideshow-container .carousel-item .right .promo-label{
