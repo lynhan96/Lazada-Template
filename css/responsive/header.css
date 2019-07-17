@@ -152,7 +152,7 @@
     height: 3px;
     width: 9%;
     background: #F4733A;
-    margin-top: 24px;
+    margin-top: 22px;
   }
 
   .mobile-top-header {
@@ -188,9 +188,12 @@
 
   .mobile-top-header .brand {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+  }
+
+  .mobile-top-header .brand img {
+    width: 140px;
   }
 
   .mobile-top-header .brand .name {
@@ -227,5 +230,52 @@
     font-size: 12px;
     font-weight: 600;
     margin-left: 4px;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    font-size: 13px;
+  }
+
+  .mobile-search-bar ul .menu-item {
+    font-size: 13px;
+  }
+
+  .header-banner-container {
+    margin-top: 118px;
+  }
+
+  .header-banner-container img{
+    height: 60px;
+  }
+
+  .mobile-top-header .brand .name {
+    font-size: 14px;
+  }
+
+  .mobile-top-header .brand img {
+    width: 100px;
+  }
+
+  .mobile-top-header .right .follow button {
+    font-size: 14px;
+  }
+
+  .mobile-search-bar ul {
+    padding-left: 5px;
+  }
+
+  .mobile-search-bar ul .menu-item:first-child {
+    padding-left: 0;
+  }
+
+  .mobile-search-bar ul .menu-item {
+    padding: 0 5px;
+    font-size: 12px;
+  }
+
+  .mobile-search-bar .container .input-group {
+    padding: 7px;
   }
 }

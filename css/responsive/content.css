@@ -104,3 +104,42 @@
     height: 95px;
   }
 }
+
+@media (max-width: 375px) {
+  .banner-with-image .content .title {
+    font-size: 17px;
+  }
+
+  .banner-no-image .title {
+    font-size: 17px;
+  }
+
+  .offical .items .item img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .offical .items .item .text {
+    font-size: 16px;
+  }
+
+  .offical .head .title {
+    font-size: 16px;
+  }
+
+  .offical .head .text {
+    font-size: 12px;
+  }
+
+  .category .products .item img, .category .products .item {
+    width: 150px;
+  }
+
+  .category .products .item .name {
+    font-size: 15px;
+  }
+
+  .category .title {
+    font-size: 22px;
+  }
+}
