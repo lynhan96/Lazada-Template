@@ -64,6 +64,16 @@ function showSlides(slideIndex, parent) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex - 1].style.display = "flex";  
+
+  slides[slideIndex - 1].style.display = "flex";
+
+  if ($(slides[slideIndex - 1]).hasClass('black')) {
+    parent.find('.next').find('i').css('color', 'white');
+    parent.find('.prev').find('i').css('color', 'white');
+  } else {
+    parent.find('.next').find('i').css('color', 'black');
+    parent.find('.prev').find('i').css('color', 'black');
+  }
+
   dots[slideIndex - 1].className += " active";
 }
