@@ -20,13 +20,6 @@
 }
 
 @media (max-width: 768px) {
-  footer .footer-information,
-  footer .footer-extra-information,
-  footer .footer-social-information{
-    display: none;
-    visibility: hidden;
-  }
-
   footer .mobile-footer {
     display: flex;
     visibility: visible;
@@ -38,6 +31,53 @@
     width: 100%;
     bottom: 0;
     z-index: 1000;
+  }
+
+  .footer-social-information .copy-right,
+  .footer-information .footer-app-information,
+  footer .footer-information .group-link,
+  .footer-social-information .follow,
+  .footer-social-information .area,
+  .footer-extra-information .payment-method,
+  .footer-extra-information .verified,
+  .footer-extra-information .delivery {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  footer .footer-information .group-link {
+    text-align: left;
+  }
+
+  .footer-social-information .copy-right {
+    text-align: center;
+  }
+
+  .footer-social-information {
+    margin-bottom: 60px;
+  }
+
+  .footer-app-information .input-group .input-group-preappend {
+    font-size: 13px;
+  }
+
+  .footer-information .group-link ul li.title {
+    font-size: 16px;
+  }
+
+  .footer-information .group-link ul li a {
+    font-size: 13px;
+  }
+
+  .footer-app-information .download-icon {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-app-information .download-icon .play-store, .footer-app-information .download-icon .app-store {
+    margin-top: 10px;    
   }
 
   .mobile-footer .item {

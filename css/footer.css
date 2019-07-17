@@ -84,6 +84,10 @@ footer .footer-information .group-link ul {
   height: 35px;
 }
 
+.footer-app-information .download-icon .download-notice {
+  display: flex;
+}
+
 .footer-app-information .download-icon .play-store,
 .footer-app-information .download-icon .app-store {
   width: 120px;
@@ -107,6 +111,7 @@ footer .footer-information .group-link ul {
 .footer-social-information .container,
 .footer-extra-information .container {
   display: flex;
+  flex-flow: wrap row;
 }
 
 .footer-social-information .area,
