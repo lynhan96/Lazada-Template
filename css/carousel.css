@@ -12,6 +12,14 @@
   padding: 0 100px;
 }
 
+.slideshow-container .carousel-item.black {
+  background: #000000;
+}
+
+.slideshow-container .carousel-item.black .left {
+  color: #fff;
+}
+
 .slideshow-container .carousel-item .left {
   width: 230px;
   display: flex;
