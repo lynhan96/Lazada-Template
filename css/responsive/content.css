@@ -44,8 +44,11 @@
     overflow-x: scroll;
   }
 
-  .category .products .item img,
   .category .products .item {
+    width: auto;
+  }
+
+  .category .products .item img{
     width: 190px
   }
 
@@ -84,10 +87,12 @@
   }
 
   .offical .head .title {
+    width: 100%;
     font-size: 22px;
   }
 
   .offical .head .text {
+    width: 100%;
     font-size: 14px;
   }
 
@@ -137,5 +142,11 @@
 
   .category .title {
     font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) and (-ms-high-contrast:none){
+  .banner-with-image img {
+    height: 120px;
   }
 }
