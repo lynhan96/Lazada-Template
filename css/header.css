@@ -5,6 +5,11 @@ header {
   align-items: center;
 }
 
+.mobile-fixed-header {
+  display: none;
+  visibility: hidden;
+}
+
 .mobile-category {
   display: none;
   visibility: hidden;
