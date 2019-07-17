@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css">
   <script src="js/jquery.min.js"></script>
+  <script src="js/carousel.js"></script>
 </head>
 <body>
   <!-- Header section -->
@@ -215,15 +216,15 @@
           </div>
         </div>
 
-        <a class="move prev" onclick="plusSlides(-1)">
+        <a class="move prev">
           <i class="fas fa-chevron-left"></i>          
         </a>
-        <a class="move next" onclick="plusSlides(1)">
+        <a class="move next">
           <i class="fas fa-chevron-right"></i>
         </a>
         <div class="dot-wrapper">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" data-position=1></span> 
+          <span class="dot" data-position=2></span>
         </div>
       </div>
     </div>
@@ -542,33 +543,12 @@
     </div>
   </footer>
   <script>
-    var slideIndex = 1
-
-    showSlides(slideIndex)
-
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n)
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("carousel-item");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "flex";  
-      dots[slideIndex-1].className += " active";
-    }
+    $( document ).ready(function() {
+      $('.slideshow-container').carousel({
+        autoPlay: true,
+        delay: 2000
+      })
+    })
   </script>
 </body>
 </html>
