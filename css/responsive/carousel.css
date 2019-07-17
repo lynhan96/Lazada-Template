@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+  .slideshow-container {
+    margin-top: 5px;
+  }
+
+  .slideshow-container .carousel-item {
+    padding: 20px 0;
+    padding-bottom: 30px;
+    flex-direction: column-reverse;
+  }
+
+  .slideshow-container .carousel-item .right {
+    width: 100%;
+    margin: 0;
+  }
+
+  .slideshow-container .carousel-item .left {
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slideshow-container .carousel-item .left .title {
+    font-size: 15px;
+  }
+
+  .slideshow-container .carousel-item .left .text {
+    margin: 8px 0;
+    font-size: 12px;
+  }
+
+  .slideshow-container .carousel-item .left .price .currency {
+    font-size: 20px;
+  }
+
+  .slideshow-container .carousel-item .left .price .text {
+    font-size: 30px;
+  }
+
+  .slideshow-container .carousel-item .left .hint-price {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .slideshow-container .carousel-item .btn {
+    width: 200px;
+  }
+
+  .slideshow-container .dot-wrapper {
+    margin-top: -20px;
+  }
+
+  .slideshow-container .dot-wrapper .dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .slideshow-container .carousel-item .right .promo-label {
+    font-size: 14px;
+    top: 15px;
+  }
+}

@@ -14,6 +14,7 @@ footer .footer-information {
 
 footer .footer-information .container {
   display: flex;
+  flex-flow: wrap row;
 }
 
 footer .footer-information .group-link {
@@ -59,13 +60,15 @@ footer .footer-information .group-link ul {
   background: #F4733A;
   color: #fff;
   padding: 12px 14px;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 .footer-app-information .download-icon {
   display: flex;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .footer-app-information .download-icon .text{
@@ -77,14 +80,14 @@ footer .footer-information .group-link ul {
 }
 
 .footer-app-information .download-icon .lazada-icon {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
 }
 
 .footer-app-information .download-icon .play-store,
 .footer-app-information .download-icon .app-store {
-  width: 150px;
-  height: 45px;
+  width: 120px;
+  height: 35px;
   margin-left: 10px;
 }
 
@@ -125,7 +128,7 @@ footer .footer-information .group-link ul {
 .footer-extra-information .payment-method img {
   width: 200px;
 }
-
+16px16px
 .footer-extra-information .delivery {
   margin-right: 20px;
 }
@@ -144,4 +147,9 @@ footer .footer-information .group-link ul {
   font-weight: bold;
   color: #4a4a4a;
   margin-bottom: 15px;
+}
+
+.mobile-footer {
+  display: none;
+  visibility: hidden;
 }

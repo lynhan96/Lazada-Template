@@ -5,6 +5,11 @@ header {
   align-items: center;
 }
 
+.mobile-category {
+  display: none;
+  visibility: hidden;
+}
+
 .top-header{
   width: 100%;
   display: flex;
@@ -47,7 +52,7 @@ header {
 .header .search-bar {
   display: flex;
   align-items: center;
-  padding: 12px 0;
+  padding: 15px 0;
 }
 
 .header .search-bar .logo {
@@ -75,7 +80,7 @@ header {
 
 .header .input-group .input-group-preappend {
   background: #F4733A;
-  padding: 10px 13px;
+  padding: 11px 13px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
@@ -91,7 +96,7 @@ header {
 
 .header .menu {
   display: flex;
-  padding: 10px 0;
+  padding: 12px 0;
   color: #16316C;
 }
 
