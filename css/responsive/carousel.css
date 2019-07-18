@@ -8,11 +8,13 @@
     padding-bottom: 30px;
     flex-direction: column-reverse;
     padding-bottom: 30px;
+    height: 100%;
   }
 
   .slideshow-container .carousel-item .right {
     width: 100%;
     margin: 0;
+    height: 300px;
   }
 
   .slideshow-container .carousel-item .left {
