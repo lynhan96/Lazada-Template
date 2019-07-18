@@ -123,6 +123,7 @@
     border: none;
     background: #f7f7f7;
     outline: none;
+    margin-left: 5px;
   }
 
   .mobile-search-bar ul {

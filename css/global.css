@@ -134,6 +134,10 @@ a {
   background-image: url('../images/arrow-right-white.svg');
 }
 
+.icon-search-gray {
+  background-image: url('../images/search-icon.svg');
+}
+
 .icon-chevron-right-black {
   background-image: url('../images/arrow-right.svg');
 }
