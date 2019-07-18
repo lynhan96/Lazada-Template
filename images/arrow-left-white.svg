@@ -1,0 +1,14 @@
+<svg width="198" height="337" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+ <metadata>Created by potrace 1.15, written by Peter Selinger 2001-2017</metadata>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1" fill="#000000" transform="translate(0,337) scale(0.10000000149011612,-0.10000000149011612) ">
+   <path fill="#ffffff" id="svg_2" d="m797,2442c-411,-411 -747,-752 -747,-757c0,-13 1492,-1505 1505,-1505c6,0 91,81 190,180l180,180l-573,573l-572,572l572,572l573,573l-180,180c-99,99 -184,180 -190,180c-5,0 -346,-336 -758,-748z"/>
+  </g>
+ </g>
+</svg>

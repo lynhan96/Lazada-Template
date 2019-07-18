@@ -68,11 +68,15 @@ function showSlides(slideIndex, parent) {
   slides[slideIndex - 1].style.display = "flex";
 
   if ($(slides[slideIndex - 1]).hasClass('black')) {
-    parent.find('.move').find('.icon').addClass('icon-white');
-    parent.find('.move').find('.icon').removeClass('icon-black');
+    parent.find('.prev').find('.icon').removeClass('icon-chevron-left-black');
+    parent.find('.prev').find('.icon').addClass('icon-chevron-left-white');
+    parent.find('.next').find('.icon').removeClass('icon-chevron-right-black');
+    parent.find('.next').find('.icon').addClass('icon-chevron-right-white');
   } else {
-    parent.find('.move').find('.icon').removeClass('icon-white');
-    parent.find('.move').find('.icon').addClass('icon-black');
+    parent.find('.prev').find('.icon').removeClass('icon-chevron-left-white');
+    parent.find('.prev').find('.icon').addClass('icon-chevron-left-black');
+    parent.find('.next').find('.icon').removeClass('icon-chevron-right-white');
+    parent.find('.next').find('.icon').addClass('icon-chevron-right-black');
   }
 
   dots[slideIndex - 1].className += " active";
