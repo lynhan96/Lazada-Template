@@ -126,6 +126,8 @@
   }
 
   .mobile-search-bar ul {
+    display: flex;
+    justify-content: center;
     width: 100%;
     list-style-type: none;
     display: flex;
