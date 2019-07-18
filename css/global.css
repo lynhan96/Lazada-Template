@@ -135,6 +135,7 @@ a {
 }
 
 .icon-search-gray {
+  height: 15px;
   background-image: url('../images/search-icon.svg');
 }
 
