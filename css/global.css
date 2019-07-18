@@ -40,6 +40,10 @@ body {
   font-family: SamsungSharp, sans-serif;
 }
 
+.fas {
+  font-family: "Font Awesome 5 Free Solid", "Font Awesome 5 Free" !important;
+}
+
 a {
   text-decoration: none;
   color: #4a4a4a;

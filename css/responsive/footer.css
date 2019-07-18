@@ -99,3 +99,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .footer-app-information .input-group .input-group-preappend {
+    font-size: 12px;
+    padding: 12px 3px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer-app-information .input-group .input-group-preappend {
+    font-size: 11px;
+  }
+}
