@@ -68,11 +68,11 @@ function showSlides(slideIndex, parent) {
   slides[slideIndex - 1].style.display = "flex";
 
   if ($(slides[slideIndex - 1]).hasClass('black')) {
-    parent.find('.next').find('i').css('color', 'white');
-    parent.find('.prev').find('i').css('color', 'white');
+    parent.find('.move').find('.icon').addClass('icon-white');
+    parent.find('.move').find('.icon').removeClass('icon-black');
   } else {
-    parent.find('.next').find('i').css('color', 'black');
-    parent.find('.prev').find('i').css('color', 'black');
+    parent.find('.move').find('.icon').removeClass('icon-white');
+    parent.find('.move').find('.icon').addClass('icon-black');
   }
 
   dots[slideIndex - 1].className += " active";

@@ -113,7 +113,7 @@
     padding: 9px 10px;
   }
 
-  .mobile-search-bar .container .input-group .fa-search {
+  .mobile-search-bar .container .input-group .search-icon {
     color: #9b9b9b;
     margin-right: 5px;
   }
@@ -175,10 +175,13 @@
     justify-content: space-between;
   }
 
-  .mobile-top-header .fa-ellipsis-h,
-  .mobile-top-header .fa-chevron-left {
-    color: #fff;
-    font-size: 23px;
+  .mobile-top-header .more-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .mobile-top-header .chevron-left {
+    width: 17px;
   }
 
   .mobile-top-header .right,
@@ -227,9 +230,8 @@
     margin-top: 5px;
   }
 
-  .mobile-top-header .right .follow .number-user .fa-user {
-    color: #fff;
-    font-size: 12px;
+  .mobile-top-header .right .follow .number-user .user {
+    width: 15px;
   }
 
   .mobile-top-header .right .follow .number-user .text {
