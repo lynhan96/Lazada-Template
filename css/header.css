@@ -37,3 +37,10 @@ header {
   background: #7E7E7E;
   color: white
 }
+
+.header-banner-container {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}

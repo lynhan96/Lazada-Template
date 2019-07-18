@@ -90,8 +90,12 @@
   padding: 0 40px;
 }
 
-.banner-with-image img {
+.banner-with-image .banner-image {
   width: 55%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
 }
 
 .banner-with-image .content {

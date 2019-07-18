@@ -81,7 +81,7 @@
     margin-left: 0;
   }
 
-  .banner-with-image img {
+  .banner-with-image .banner-image {
     margin-top: 10px;
     width: 100%;
   }

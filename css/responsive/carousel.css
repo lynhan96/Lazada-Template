@@ -40,7 +40,6 @@
   .slideshow-container .carousel-item .left .hint-price {
     font-size: 14px;
     margin-bottom: 15px;
-    margin-top: -13px;
   }
 
   .slideshow-container .carousel-item .btn {
@@ -48,7 +47,7 @@
   }
 
   .slideshow-container .dot-wrapper {
-    margin-top: -20px;
+    margin-top: -15px;
   }
 
   .slideshow-container .dot-wrapper .dot {
