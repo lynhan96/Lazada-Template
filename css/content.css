@@ -21,6 +21,7 @@
   margin-bottom: 20px;
   width: 100%;
   text-align: center;
+  font-weight: bold;
 }
 
 .category .products {
@@ -30,12 +31,12 @@
 
 .category .products .item {
   display: flex;
-  width: 210px;
+  width: 220px;
   flex-direction: column;
   background: #fff;
   padding: 30px;
   border-radius: 2px;
-  margin: 20px 10px 0 10px;
+  margin: 20px 22px 0 20px;
 }
 
 .category .products .item:nth-of-type(4n) {
@@ -53,86 +54,100 @@
 .category .products .item img {
   width: 210px;
   object-fit: contain;
+  margin-bottom: 25px;
 }
 
 .category .products .item .name {
   width: 100%;
   text-overflow: ellipsis;
-  white-space: nowrap;
   overflow: hidden;
   font-size: 17px;
-  margin-top: 20px;
+  font-weight: bold;
 }
 
 .category .products .item .price {
   display: flex;
   align-items: center;
-  margin: 22px 0;
+  margin: 7px 0 22px 0;
 }
 
 .category .products .item .price .current-price{
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .category .products .item .price .original-price{
+  font-size: 17px;
+  font-weight: bold;
   color: #bebebe;
-  margin-left: 8px;
+  margin-left: 15px;
 }
 
 .banner-with-image .container .wrapper{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 250px;
+  height: 350px;
   margin: 50px 0;
   background-color: #fff;
-  padding: 0 40px;
+  padding: 40px 70px;
 }
 
 .banner-with-image .banner-image {
-  width: 55%;
+  width: calc(100% - 280px);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  height: 200px;
+  background-size: cover;
+  height: 100%;
 }
 
 .banner-with-image .content {
+  width: 280px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.banner-with-image .content img {
+  width: 220px;
+  object-fit: contain;
+}
+
 .banner-with-image .content .title {
-  font-size: 22px;
-  font-weight: 600;
+  margin-top: 30px;
+  font-size: 27px;
+  font-weight: bold;
 }
 
 .banner-with-image .content .hint {
+  font-size: 17px;
   margin-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
-.banner-with-image .content .btn-black-border {
-  width: 250px;
+.banner-with-image .content .btn-primary {
+  width: 225px;
 }
 
 .banner-no-image .container{
+  height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(96deg, #1475ac, #5fbccd 45%, #f6bdb0);
   padding: 25px 0;
   margin: 50px 0;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .banner-no-image .title {
   margin-bottom: 15px;
   font-size: 25px;
-  font-weight: 600;
-  color: #fff;
+  font-weight: bold;
+  color: #000000;
 }
 
 .offical {

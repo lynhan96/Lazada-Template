@@ -5,37 +5,42 @@ header {
   align-items: center;
 }
 
-.mobile-fixed-header {
-  display: none;
-  visibility: hidden;
-}
-
 .mobile-category {
   display: none;
   visibility: hidden;
 }
 
 .header-submenu {
+  height: 40px;
   background: #f7f7f7;
 }
 
 .header-submenu ul {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   display: flex;
   margin: 0;
-  padding-left: 185px;
+  padding-left: 0;
 }
 
-.header-submenu ul .submenu-item {
-  padding: 10px 20px;
+.header-submenu ul .submenu-item{
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
   color: #000000;
   text-align: center;
+  height: 40px;
+  font-weight: bold;
 }
 
-.header-submenu ul .submenu-item:hover,
-.header-submenu ul .submenu-item.active {
+.header-submenu ul .submenu-item:hover{
   background: #7E7E7E;
   color: white
+}
+
+.header-submenu ul .submenu-item:hover a{
+  color: white;
 }
 
 .header-banner-container {

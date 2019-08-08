@@ -42,12 +42,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #4a4a4a;
+  color: #000000;
   outline: none;
 }
 
 .container {
-  width: 1140px;
+  width: 1248px;
 }
 
 .bg-white {
@@ -92,17 +92,18 @@ a {
   cursor: pointer;
   border: none;
   font-size: 15px;
+  font-weight: 500;
 }
 
 .btn.btn-primary {
   color: #fff;
-  background: #1429a0;
-  border: 1px #1429a0 solid;
+  background: #17299F;
+  border: 1px #17299F solid;
 }
 
 .btn.btn-black-border {
-  border: 1px #2d2d2d solid;
-  color: #2d2d2d;
+  border: 1px #000000 solid;
+  color: #000000;
   background: transparent;  
 }
 
@@ -110,12 +111,6 @@ a {
   border: 1px #fff solid;
   color: #fff;
   background: transparent;  
-}
-
-.btn.btn-primary:hover {
-  border: 1px #2d2d2d solid;
-  color: #2d2d2d;
-  background: transparent;
 }
 
 .w-100 {
@@ -134,11 +129,6 @@ a {
   background-image: url('../images/arrow-right-white.svg');
 }
 
-.icon-search-gray {
-  height: 15px;
-  background-image: url('../images/search-icon.svg');
-}
-
 .icon-chevron-right-black {
   background-image: url('../images/arrow-right.svg');
 }
@@ -149,14 +139,4 @@ a {
 
 .icon-chevron-left-black {
   background-image: url('../images/arrow-left.svg');
-}
-
-.icon-user-white {
-  height: 20px;
-  background-image: url('../images/user.svg');
-}
-
-.icon-ellipsis-white {
-  width: 25px;
-  background-image: url('../images/more-icon.svg');
 }

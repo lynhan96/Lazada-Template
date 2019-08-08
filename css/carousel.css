@@ -5,9 +5,9 @@
 
 .slideshow-container .carousel-item {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 450px;
+  height: 500px;
   background: #fff;
   padding: 0 100px;
 }
@@ -20,22 +20,45 @@
   color: #fff;
 }
 
+.slideshow-container .carousel-item-event .left,
 .slideshow-container .carousel-item .left {
-  width: 230px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: 17px;
 }
 
+.slideshow-container .carousel-item-event {
+  align-items: flex-start;
+}
+
+.slideshow-container .carousel-item-event .left {
+  width: 400px;
+}
+
+.slideshow-container .carousel-item .left .banner-logo {
+  width: 100%;
+}
+
 .slideshow-container .carousel-item .right {
-  width: calc(100% - 250px);
-  height: 100%;
+  width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: 17px;
   margin-left: 20px;
+  height: 100%;
+}
+
+.slideshow-container .carousel-item-event .right {
+  width: calc(100% - 400px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 17px;
+  margin-left: 20px;
+  height: 100%;
 }
 
 .slideshow-container .carousel-item .right img {
@@ -43,7 +66,7 @@
   height: 100%;
 }
 
-.slideshow-container .carousel-item .right .promo-label{
+.slideshow-container .carousel-item-event .right .promo-label{
   position: absolute;
   top: 25px;
   right: 0;
@@ -52,35 +75,42 @@
   color: #fff;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
+  font-weight: bold;
 }
 
 .slideshow-container .carousel-item .left .title {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
+  margin-top: 35px;
+  margin-bottom: 10px;
 }
 
-.slideshow-container .carousel-item .left .text {
-  margin: 30px 0;
+.slideshow-container .carousel-item-event .left .title{
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .slideshow-container .carousel-item .left .price {
   display: flex;
-  align-items: center;
+  margin-bottom: 20px;
 }
 
 .slideshow-container .carousel-item .left .price .currency {
-  font-size: 30px;
-  margin-right: 5px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .slideshow-container .carousel-item .left .price .text {
   margin: 0;
-  font-size: 60px;
-  font-weight: 600;
+  font-size: 55px;
+  font-weight: 900;
+  margin: 0 5px;
+  margin-top: -5px;
 }
 
-.slideshow-container .carousel-item .left .hint-price {
-  margin-bottom: 20px;
+.slideshow-container .carousel-item .left .btn {
+  width: 250px;
 }
 
 /* Next & previous buttons */
@@ -112,8 +142,6 @@
 .slideshow-container .icon {
   width: 20px;
 }
-
-
 
 /* On hover, add a black background color with a little bit see-through */
 .slideshow-container .prev:hover, .slideshow-container .next:hover {

@@ -2,9 +2,7 @@
 @import "header.css";
 @import "carousel.css";
 @import "content.css";
-@import "footer.css";
 @import "./responsive/global.css";
 @import "./responsive/header.css";
 @import "./responsive/content.css";
 @import "./responsive/carousel.css";
-@import "./responsive/footer.css";

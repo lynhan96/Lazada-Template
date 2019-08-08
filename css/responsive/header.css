@@ -16,17 +16,6 @@
     visibility: hidden;
   }
 
-  .mobile-fixed-header {
-    visibility: visible;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    left: 0;
-  }
-
   .header-banner-container {
     margin-top: 127px;
   }
@@ -88,169 +77,10 @@
     font-weight: 600;
     text-align: center;
   }
-
-  .mobile-search-bar {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 7px 0;
-    visibility: visible;
-  }
-
-  .mobile-search-bar .container {
-    display: flex;
-    align-items: center;
-  }
-
-  .mobile-search-bar .container .input-group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    border-radius: 30px;
-    background: #f7f7f7;
-    padding: 9px 10px;
-  }
-
-  .mobile-search-bar .container .input-group .search-icon {
-    color: #9b9b9b;
-    margin-right: 5px;
-  }
-
-  .mobile-search-bar .container .input-group input {
-    width: 70px;
-    border: none;
-    background: #f7f7f7;
-    outline: none;
-    margin-left: 5px;
-  }
-
-  .mobile-search-bar ul {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    list-style-type: none;
-    display: flex;
-    padding-left: 7px;
-    margin: 8px 0;
-  }
-
-  .mobile-search-bar ul .menu-item.active {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column-reverse;
-    color: #F4733A;
-  }
-
-  .mobile-search-bar ul .menu-item.active a{
-    color: #F4733A;
-  }
-
-  .mobile-search-bar ul .menu-item {
-    padding: 0 10px;
-    font-weight: bold;
-    font-size: 14px;
-    color: #4a4a4a;
-  }
-
-  .mobile-search-bar ul .menu-item.active::before {
-    position: absolute;
-    content: "";
-    height: 3px;
-    width: 9%;
-    background: #F4733A;
-    margin-top: 22px;
-    bottom: 0;
-  }
-
-  .mobile-top-header {
-    background: #183674;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-  }
-
-  .mobile-top-header .container {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .mobile-top-header .more-icon {
-    width: 25px;
-    height: 25px;
-  }
-
-  .mobile-top-header .chevron-left {
-    width: 17px;
-  }
-
-  .mobile-top-header .right,
-  .mobile-top-header .left{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .mobile-top-header .left .logo {
-    width: 50px; height: 50px;
-    margin: 0 7px;
-  }
-
-  .mobile-top-header .brand {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .mobile-top-header .brand img {
-    width: 140px;
-  }
-
-  .mobile-top-header .brand .name {
-    color: #fff;
-    font-size: 16px;
-  }
-
-  .mobile-top-header .right .follow {
-    margin-right: 10px;
-  }
-
-  .mobile-top-header .right .follow button {
-    background: #FC443C;
-    padding: 8px 7px;
-    border-radius: 4px;
-    color: #fff;
-    font-weight: 600;
-  }
-
-  .mobile-top-header .right .follow .number-user{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 5px;
-  }
-
-  .mobile-top-header .right .follow .number-user .user {
-    width: 15px;
-  }
-
-  .mobile-top-header .right .follow .number-user .text {
-    color: #fff;
-    font-size: 12px;
-    font-weight: 600;
-    margin-left: 4px;
-  }
 }
 
 @media (max-width: 375px) {
   body {
-    font-size: 13px;
-  }
-
-  .mobile-search-bar ul .menu-item {
     font-size: 13px;
   }
 
@@ -260,40 +90,5 @@
 
   .header-banner-container img{
     height: 60px;
-  }
-
-  .mobile-top-header .brand .name {
-    font-size: 14px;
-  }
-
-  .mobile-top-header .brand img {
-    width: 100px;
-  }
-
-  .mobile-top-header .right .follow button {
-    font-size: 14px;
-  }
-
-  .mobile-search-bar ul {
-    padding-left: 10px;
-  }
-
-  .mobile-search-bar ul .menu-item:first-child {
-    padding-left: 0;
-  }
-
-  .mobile-search-bar ul .menu-item {
-    padding: 0 5px;
-    font-size: 12px;
-  }
-
-  .mobile-search-bar .container .input-group {
-    padding: 7px;
-  }
-}
-
-@media (max-width: 768px) and (-ms-high-contrast:none){
-  .mobile-search-bar ul .menu-item.active::before {
-    margin-left: -20px;
   }
 }
