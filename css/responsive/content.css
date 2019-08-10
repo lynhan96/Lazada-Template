@@ -62,7 +62,7 @@
     display: flex;
     flex-direction: column;
     margin: 25px 0;
-    padding: 20px 5px;
+    padding: 35px 5px;
     height: auto;
   }
 
@@ -85,9 +85,19 @@
     margin-left: 0;
   }
 
+  .banner-with-image .content img {
+    display: none;
+  }
+
   .banner-with-image .banner-image {
     margin-top: 10px;
     width: 100%;
+    height: 180px;
+    background-size: contain;
+  }
+
+  .banner-no-image .container {
+    height: 100%;
   }
 
   .offical .head .title {

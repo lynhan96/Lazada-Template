@@ -51,6 +51,37 @@
     font-size: 15px;
   }
 
+  .slideshow-container .carousel-item-event {
+    padding: 0;
+    background-image: none !important;
+  }
+
+  .slideshow-container .carousel-item-event .event-footer-banner-responsive {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+  }
+
+  .slideshow-container .carousel-item-event .left {
+    width: 100%;
+  }
+
+  .slideshow-container .carousel-item-event .responsive-title {
+    display: block;
+    font-size: 20px;
+    margin-top: 55px;
+    font-weight: bold;
+  }
+
+  .slideshow-container .carousel-item-event .left .title {
+    display: none;
+  }
+
+  .slideshow-container .carousel-item-event .left .content img {
+    margin-top: 40px;
+  }
+
   .slideshow-container .carousel-item .left .text {
     margin: 8px 0;
     font-size: 12px;

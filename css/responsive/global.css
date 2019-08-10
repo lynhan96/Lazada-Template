@@ -10,10 +10,6 @@
     width: calc(100% - 30px);
     padding: 0 15px;
   }
-
-  .btn {
-    padding: 7px 20px;
-  }
 }
 
 @media (max-width: 375px) {

@@ -73,6 +73,10 @@
   height: 100%;
 }
 
+.slideshow-container .carousel-item-event .event-footer-banner-responsive {
+  display: none;
+}
+
 .slideshow-container .carousel-item-event .right .event-promo-label {
   position: absolute;
   top: 25px;
@@ -90,6 +94,10 @@
   font-size: 18px;
   margin-top: 35px;
   margin-bottom: 10px;
+}
+
+.slideshow-container .carousel-item-event .responsive-title {
+  display: none;
 }
 
 .slideshow-container .carousel-item-event .left .title{
