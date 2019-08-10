@@ -20,6 +20,12 @@
   color: #fff;
 }
 
+.slideshow-container .carousel-item-event {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
 .slideshow-container .carousel-item-event .left,
 .slideshow-container .carousel-item .left {
   width: 300px;
@@ -29,11 +35,8 @@
   font-size: 17px;
 }
 
-.slideshow-container .carousel-item-event {
-  align-items: flex-start;
-}
-
 .slideshow-container .carousel-item-event .left {
+  margin-top: -5%;
   width: 400px;
 }
 
@@ -51,8 +54,12 @@
   height: 100%;
 }
 
+.slideshow-container .carousel-item-event {
+  padding: 0 90px;
+}
+
 .slideshow-container .carousel-item-event .right {
-  width: calc(100% - 400px);
+  width: calc(100% - 450px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,15 +73,15 @@
   height: 100%;
 }
 
-.slideshow-container .carousel-item-event .right .promo-label{
+.slideshow-container .carousel-item-event .right .event-promo-label {
   position: absolute;
   top: 25px;
   right: 0;
-  background-image: linear-gradient(261deg, #ffb198, #62aae4);
-  padding: 5px 30px;
+  background-image: linear-gradient(84deg, #ff4337, #1429a0);
+  padding: 6px 30px 3px 30px;
   color: #fff;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   font-weight: bold;
 }
 
@@ -87,8 +94,30 @@
 
 .slideshow-container .carousel-item-event .left .title{
   font-weight: bold;
-  font-size: 25px;
+  font-size: 27px;
   margin-bottom: 10px;
+}
+
+.slideshow-container .carousel-item-event .left .offical-banner{
+  width: 140px;
+  position: absolute;
+  left: 35px;
+  top: 25px;
+}
+
+.slideshow-container .carousel-item-event .event-footer-banner {
+  width: 100%;
+}
+
+.slideshow-container .carousel-item-event .left .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.slideshow-container .carousel-item-event .left .content img {
+  width: 330px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .slideshow-container .carousel-item .left .price {

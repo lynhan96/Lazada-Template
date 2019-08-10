@@ -1,3 +1,27 @@
+@media only screen and (max-width: 1248px) {
+  .slideshow-container .carousel-item-event {
+    padding: 0 40px;
+  }
+
+  .slideshow-container .carousel-item-event .right {
+    width: 60%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slideshow-container .carousel-item-event {
+    padding: 0 50px;
+  }
+
+  .slideshow-container .carousel-item-event .left {
+    width: 40%;
+  }
+
+  .slideshow-container .carousel-item-event .left .content img {
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .slideshow-container {
     margin-top: 5px;

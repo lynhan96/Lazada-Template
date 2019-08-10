@@ -11,13 +11,13 @@ header {
 }
 
 .header-submenu {
-  height: 40px;
   background: #f7f7f7;
 }
 
 .header-submenu ul {
   display: flex;
   justify-content: space-between;
+  flex-flow: wrap row;
   list-style: none;
   display: flex;
   margin: 0;
@@ -25,7 +25,7 @@ header {
 }
 
 .header-submenu ul .submenu-item{
-  padding: 0 15px;
+  padding: 0 5px;
   display: flex;
   align-items: center;
   color: #000000;

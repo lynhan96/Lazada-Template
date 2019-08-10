@@ -85,10 +85,10 @@ a {
 .btn {
   text-align: center;
   color: #2d2d2d;
-  border-radius: 20px;
+  border-radius: 32px;
   outline: none;
   background: #f1f1f1;
-  padding: 10px 20px;
+  padding: 14px 40px;
   cursor: pointer;
   border: none;
   font-size: 15px;
