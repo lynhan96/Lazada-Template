@@ -8,7 +8,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1248px){
+@media (min-width: 1024px) and (max-width: 1248px){
   .header-submenu ul {
     padding-left: 0;
     justify-content: center;
@@ -22,7 +22,11 @@
   .category .products .item:nth-of-type(4n +1),
   .category .products .item:nth-of-type(4n),
   .category .products .item {
-    margin: 25px;
+    margin: 15px;
+  }
+
+  .banner-with-image .banner-image {
+    background-size: contain;
   }
 }
 
@@ -30,6 +34,21 @@
   .offical .items .item {
     width: 50%;
     margin-top: 40px;
+  }
+
+  .slideshow-container .carousel-item {
+    padding: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .slideshow-container .carousel-item-event .left .content img {
+    width: 50% !important;
+    margin-top: 70px !important;
+  }
+
+  .slideshow-container .carousel-item {
+    justify-content: center !important;
   }
 }
 
@@ -97,7 +116,25 @@
   }
 
   .banner-no-image .container {
-    height: 100%;
+    background-size: 100% 150px !important;
+    background-image: url('../../images/footer-banner-responsive.png');
+  }
+
+  .banner-no-image .container .title {
+    display: none;
+  }
+
+  .banner-no-image .container .title-responsive {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .banner-no-image .container .btn {
+    margin-top: 15px;
   }
 
   .offical .head .title {
@@ -146,8 +183,12 @@
     font-size: 12px;
   }
 
+  .category .products .item {
+    padding: 25px;
+  }
+
   .category .products .item img, .category .products .item {
-    width: 150px;
+    width: 190px;
   }
 
   .category .products .item .name {

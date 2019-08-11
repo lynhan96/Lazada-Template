@@ -77,7 +77,8 @@
   display: none;
 }
 
-.slideshow-container .carousel-item-event .right .event-promo-label {
+.slideshow-container .carousel-item .right .promo-label,
+.slideshow-container .carousel-item .right .event-promo-label {
   position: absolute;
   top: 25px;
   right: 0;
@@ -87,6 +88,10 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   font-weight: bold;
+}
+
+.slideshow-container .carousel-item .right .promo-label {
+  background-image: linear-gradient(to left, #5e8bcf, #a752b0);
 }
 
 .slideshow-container .carousel-item .left .title {

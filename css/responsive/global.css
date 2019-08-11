@@ -17,4 +17,8 @@
     width: calc(100% - 14px);
     padding: 0 7px;
   }
+
+  .btn {
+    padding: 10px 20px;
+  }
 }

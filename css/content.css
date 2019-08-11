@@ -141,10 +141,14 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-image: url('../images/footer-banner.png');
+}
+
+.banner-no-image .container .title-responsive { 
+  display: none;
 }
 
 .banner-no-image .title {
-  margin-bottom: 15px;
   font-size: 25px;
   font-weight: bold;
   color: #000000;
