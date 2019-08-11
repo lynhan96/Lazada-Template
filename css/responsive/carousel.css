@@ -210,3 +210,13 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 768px) {
+  .slideshow-container .carousel-item-event .left .content img {
+    width: 80% !important;
+    margin-top: 70px !important;
+  }
+
+  .slideshow-container .carousel-item {
+    justify-content: center !important;
+  }
+}

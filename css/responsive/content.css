@@ -41,17 +41,6 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
-  .slideshow-container .carousel-item-event .left .content img {
-    width: 50% !important;
-    margin-top: 70px !important;
-  }
-
-  .slideshow-container .carousel-item {
-    justify-content: center !important;
-  }
-}
-
 @media (max-width: 768px) {
   .category .container {
     width: 100%;

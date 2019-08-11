@@ -23,7 +23,7 @@
 .slideshow-container .carousel-item-event {
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: contain;
+  background-size: 100% 40px;
 }
 
 .slideshow-container .carousel-item-event .left,
