@@ -42,6 +42,14 @@
 }
 
 @media (max-width: 768px) {
+  .offical .head .text-responsive {
+    display: block;
+  }
+
+  .offical .head .text {
+    display: none;
+  }
+
   .category .container {
     width: 100%;
     padding: 0;
