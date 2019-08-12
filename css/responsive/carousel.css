@@ -49,11 +49,13 @@
   }
 
   .slideshow-container .carousel-item .left .large-title {
+    width: 100%;
     text-align: center;
     font-size: 20px;
   }
 
   .slideshow-container .carousel-item .left .sub-title {
+    width: 100%;
     font-size: 16px;
     text-align: center;
   }
@@ -383,6 +385,7 @@
 
 @media all and (-ms-high-contrast:none) {
   .slideshow-container .carousel-item .right img {
+    margin-top: 60px;
     height: 350px;
   }
 
@@ -416,10 +419,10 @@
 
 @media (max-width: 375px) and (-ms-high-contrast:none) {
   .slideshow-container .carousel-item .right img {
-    height: 150px;
+    height: 150px !important;
   }
 
   .slideshow-container .carousel-item .left .banner-logo {
-    height: 30px;
+    height: 30px !important;
   }
 }
