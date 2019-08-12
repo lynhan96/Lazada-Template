@@ -6,12 +6,6 @@
   justify-content: flex-start !important;
 }
 
-.no-slide .carousel-item .right .event-promo-label,
-.no-slide .carousel-item .right .promo-label {
-  top: auto !important;
-  margin-top: 20px;
-}
-
 .slideshow-container {
   position: relative;
   margin-top: 15px;

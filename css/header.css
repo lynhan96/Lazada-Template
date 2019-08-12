@@ -16,7 +16,7 @@ header {
 
 .header-submenu ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-flow: wrap row;
   list-style: none;
   display: flex;
