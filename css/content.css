@@ -55,20 +55,25 @@
   width: 210px;
   object-fit: contain;
   margin-bottom: 25px;
+  height: 210px
 }
 
 .category .products .item .name {
-  width: 100%;
+  width: 80%;
   text-overflow: ellipsis;
   overflow: hidden;
   font-size: 17px;
   font-weight: bold;
+  height: 45px;
+  display: flex;
+  align-items: center;
 }
 
 .category .products .item .price {
   display: flex;
   align-items: center;
-  margin: 7px 0 22px 0;
+  margin-bottom: 22px;
+  margin-top: 3px;
 }
 
 .category .products .item .price .current-price{
@@ -142,6 +147,10 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-image: url('../images/footer-banner.png');
+}
+
+.banner-no-image .container.no-margin {
+  margin: 0;
 }
 
 .banner-no-image .container .title-responsive { 
