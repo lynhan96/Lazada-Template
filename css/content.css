@@ -59,7 +59,7 @@
 }
 
 .category .products .item .name {
-  width: 80%;
+  width: 85%;
   text-overflow: ellipsis;
   overflow: hidden;
   font-size: 17px;

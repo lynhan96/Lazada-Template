@@ -43,6 +43,64 @@ header {
   color: white;
 }
 
+.top-header {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.top-header .banner {
+  height: 140px;
+  width: 40%;
+  margin: 20px 0;
+  object-fit: contain;
+}
+
+.top-header .card {
+  padding: 0 15px;
+  height: 130px;
+  width: 48%;
+  box-shadow: 2px 2px 37px 0 rgba(212, 212, 212, 0.32);
+  display: flex;
+  align-items: center;
+}
+
+.top-header .card .logo {
+  height: 95px;
+}
+
+.top-header .card .button-wrapper {
+  display: flex;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.top-header .card .button-wrapper img {
+  width: 75px;
+  margin: 0 5px;
+}
+
+.top-header .card .follow-wrapper {
+  margin-top: 50px;
+  width: 120px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-header .card .follow-wrapper .follow.first {
+  margin-right: 10px;
+  color: #9b9b9b;
+}
+
+.top-header .card .follow-wrapper .follow {
+  font-size: 13px;
+  font-weight: 600;
+  color: #9b9b9b;
+}
+
 .header-banner-container {
   background-position: center;
   background-repeat: no-repeat;

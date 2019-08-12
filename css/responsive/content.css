@@ -60,13 +60,23 @@
     overflow-x: scroll;
   }
 
+  .category .products.bestsellers {
+    flex-flow: wrap row;
+    justify-content: center;
+  }
+
   .category .products .item {
     width: auto;
+  }
+
+  .category .products.bestsellers .item {
+    width: 210px;
   }
 
   .category .products .item img{
     width: 190px;
     height: 190px;
+    margin: auto;
   }
 
   .category .products .item:nth-of-type(4n +1),

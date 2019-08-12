@@ -17,6 +17,10 @@
   margin-top: 15px;
 }
 
+.slideshow-container .carousel-last-item .banner-responsive-logo {
+  display: none;
+}
+
 .slideshow-container .carousel-middle-item {
   overflow: hidden;
   padding: 0 40px !important;
@@ -42,6 +46,8 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 3px;
 }
 
 
@@ -56,8 +62,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0 100px;
   margin: auto;
+}
+
+.slideshow-container .carousel-middle-item .btn.responsive,
+.slideshow-container .carousel-middle-item .banner-content .left-banner.responsive {
+  display: none;
 }
 
 .slideshow-container .carousel-middle-item .banner-content .left-banner {
@@ -175,6 +185,7 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   font-weight: bold;
+  letter-spacing: 3px;
 }
 
 .slideshow-container .carousel-item .right .promo-label {

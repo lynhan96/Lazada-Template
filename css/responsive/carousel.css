@@ -20,9 +20,110 @@
   .slideshow-container .carousel-item-event .left .content img {
     width: 100%;
   }
+
+  .slideshow-container .carousel-item .left.w-50 {
+    width: 100%;
+  }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .slideshow-container .carousel-middle-item .banner-content .left-banner {
+    width: 400px;
+    height: 410px;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content .content .discount-logo {
+    height: 68px;
+    margin-left: -140px;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content .content {
+    padding-left: 40px;
+  }
+}
+
+
 @media (max-width: 768px) {
+  .slideshow-container .carousel-last-item {
+    flex-direction: column-reverse !important;
+  }
+
+  .slideshow-container .carousel-item .left .large-title {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .slideshow-container .carousel-item .left .sub-title {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .slideshow-container .carousel-item .left.w-50 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+
+  .slideshow-container .carousel-item .left.w-50 .banner-logo {
+    display: none;
+  }
+
+  .slideshow-container .carousel-last-item .banner-responsive-logo {
+    display: block;
+    width: 170px;
+    height: 40px;
+  }
+
+  .slideshow-container .carousel-last-item .banner-responsive {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .slideshow-container .carousel-middle-item {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content .left-banner {
+    display: none;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content {
+    margin-top: 30px;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content .content .discount-logo {
+    height: 50px;
+    margin-left: -100px;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content .content {
+    height: 200px;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content .content .title {
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content .left-banner.responsive {
+    display: block;
+    height: 300px;
+    width: 290px;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content .content .btn {
+    display: none;
+  }
+
+  .slideshow-container .carousel-middle-item .btn.responsive {
+    display: block;
+    width: 200px !important;
+    margin: 20px 0;
+  }
+
   .slideshow-container {
     margin-top: 5px;
   }
@@ -147,6 +248,11 @@
     height: 8px;
   }
 
+  .slideshow-container .carousel-middle-item .top-content .promo-label {
+    font-size: 14px;
+    padding: 6px 20px 3px 20px;
+  }
+
   .slideshow-container .carousel-item .right .promo-label {
     font-size: 14px;
     top: 15px;
@@ -155,10 +261,54 @@
   .slideshow-container .carousel-item-event .right img {
     height: 300px;
   }
+
+  .slideshow-container .carousel-last-item .btn {
+    width: 200px !important; 
+  }
 }
 
 
 @media (max-width: 450px) {
+  .slideshow-container .carousel-middle-item .banner-content .content .discount-logo {
+    height: 30px;
+    margin-left: -70px;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content .content {
+    height: 140px;
+    padding-left: 20px;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content .content .title {
+    width: 150px;
+    font-size: 15px;
+  }
+
+  .slideshow-container .carousel-middle-item {
+    padding: 0 20px !important;
+  }
+
+  .slideshow-container .carousel-middle-item .top-content .top-logo {
+    width: 110px;
+  }
+
+  .slideshow-container .carousel-middle-item .banner-content .left-banner.responsive {
+    width: 150px;
+    height: 170px;
+  }
+
+  .slideshow-container .carousel-last-item .banner-responsive-logo {
+    width: 130px;
+    height: 30px;
+  }
+
+  .slideshow-container .carousel-item .left.w-50 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
   .slideshow-container .carousel-item .left .banner-logo {
     width: 170px;
     margin-top: -50px;
@@ -181,6 +331,11 @@
 }
 
 @media (max-width: 375px) {
+  .slideshow-container .carousel-middle-item .banner-content .content .title {
+    width: 100%;
+    font-size: 13px;
+  }
+
   .slideshow-container .carousel-item-event .event-footer-banner-responsive {
     height: 30px;
     margin-top: 30px;
@@ -200,6 +355,7 @@
     padding: 10px 20px;
   }
 
+  .slideshow-container .carousel-middle-item .top-content .promo-label,
   .slideshow-container .carousel-item .right .event-promo-label,
   .slideshow-container .carousel-item .right .promo-label {
     font-size: 12px;
@@ -208,12 +364,16 @@
   .slideshow-container .carousel-item-event .left .offical-banner {
     width: 100px;
   }
+
+  .slideshow-container .carousel-last-item .btn {
+    width: 200px !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 768px) {
   .slideshow-container .carousel-item-event .left .content img {
     width: 80% !important;
-    margin-top: 70px !important;
+    margin-top: 90px !important;
   }
 
   .slideshow-container .carousel-item {
